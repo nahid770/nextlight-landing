@@ -14,9 +14,9 @@ const Banner = () => {
 <div className='mb-20 md:mb-0 '>
     <div className="hero md:mt-10 ">
     <div className="hero-content flex-col lg:flex-row-reverse md:gap-32 relative">
-    <div className='glowing-circle absolute bottom-[370px] md:bottom-[165px] md:left-[760px] light'>
+    {/* <div className='glowing-circle absolute bottom-[370px] md:bottom-[165px] md:left-[760px] light'>
       
-    </div>
+    </div> */}
     <img src={banner} alt='' className="max-w-xs md:max-w-md rounded-lg z-10 "/>
     
     
