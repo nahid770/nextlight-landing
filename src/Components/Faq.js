@@ -3,6 +3,7 @@ import React from 'react';
 const Faq = () => {
     return (
     <div id='faq' className='my-16  mx-auto '>
+      <h3 className='textGradient font-FredokaOne md:text-6xl text-3xl text-center my-10'>FAQ</h3>
 
     <div tabIndex={0} 
     data-aos-duration="1000" data-aos="fade-up"

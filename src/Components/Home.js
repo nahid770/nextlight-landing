@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Gallery from './Gallery';
 import Lore from './Lore';
 import Navber from './Navber';
+import Roadmap from './Roadmap';
 import Team from './Team';
 
 const Home = () => {
@@ -16,8 +17,9 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Gallery></Gallery>
-            <Team></Team>
             <Lore></Lore>
+            <Roadmap></Roadmap>
+            <Team></Team>
             <Faq></Faq>
             </div>
             <Footer></Footer>

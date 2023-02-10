@@ -1,83 +1,24 @@
 .text{
     font-weight: 900;
-    
 }
 .textGradient{
-
   background: linear-gradient(87deg, #FFF112 51%, #ffb108 82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* 
-.glowing-circle {
-  z-index: 0;
-  border-radius: 50%;
-    background-color: #1D0E28;
-    box-shadow: 0 0 60px 30px #FFF112, 0 0 100px 60px #ffb108, 0 0 140px 90px #FFF112;   
-  }
 
-  
-  .light {
-    width:130px;
-    height:130px;
-    
-    -webkit-animation-name: flicker;
-            animation-name: flicker;
-    -webkit-animation-duration: 18s;
-            animation-duration: 18s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-  }
-  
-  @keyframes flicker {
-    from {
-        opacity: 0.5;
-      }
-     
-      10% {
-        opacity: 0.65;
-      }
-      15%{
-        opacity: 0.35;
-      }
-     
-      20% {
-        opacity: 0.5;
-      }
-      30% {
-        opacity: 0.30;
-      }
-      35%{
-        opacity: 0.10;
-      }
-      40% {
-        opacity: 0.5;
-      }
-      50% {
-        opacity: 0.20;
-      }
-      60% {
-        opacity: 0.5;
-      }
-      70% {
-        opacity: 0.5;
-      }
-      80% {
-        opacity: .65;
-      }
-      90% {
-        opacity: 0.6;
-      }
-      to {
-        opacity: 0.3;
-      }
-  } */
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
 
-  /* @media only screen and (max-width: 600px) {
-    .light{
-      height: 40px;
-      width: 40px;
-    }
-  } */
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
