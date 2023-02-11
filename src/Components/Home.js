@@ -3,10 +3,10 @@ import About from './About';
 import Banner from './Banner';
 import Faq from './Faq';
 import Footer from './Footer';
-import Gallery from './Gallery';
 import Lore from './Lore';
 import Navber from './Navber';
 import Roadmap from './Roadmap';
+import Slide from './Slide';
 import Team from './Team';
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
             <Navber></Navber>
             <Banner></Banner>
             <About></About>
-            <Gallery></Gallery>
+            <Slide></Slide>
             <Lore></Lore>
             <Roadmap></Roadmap>
             <Team></Team>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Faq = () => {
     return (
@@ -21,7 +23,7 @@ const Faq = () => {
         </div>
     </div>
     <div tabIndex={0} 
-    data-aos-duration="1500" data-aos="fade-up"
+    data-aos-duration="2000" data-aos="fade-up"
     className="collapse collapse-arrow
      border
      bg-base-100 rounded-box
@@ -33,7 +35,8 @@ const Faq = () => {
         What is Sui?
         </div>
         <div className="collapse-content"> 
-          <p tabIndex={0} className='text-white text-center md:text-start'>Sui is the first permissionless Layer 1 blockchain designed from the ground up to enable creators and developers to build experiences that cater to the next billion users in web3. (Learn more: insert link to learn more https://sui.io/)</p>
+          <p tabIndex={0} ></p>
+          <p className='text-white text-center md:text-start mb-2'>Sui is the first permissionless Layer 1 blockchain designed from the ground up to enable creators and developers to build experiences that cater to the next billion users in web3, <a className='textGradient text-lg ' target='blank' href="https://sui.io/">Learn more</a></p>
         </div>
     </div>
     <div tabIndex={0} 
@@ -49,8 +52,7 @@ const Faq = () => {
         How can I get the Nextlight NFT?
         </div>
         <div className="collapse-content"> 
-          <p tabIndex={0} className='text-white text-center md:text-start'>We'll publicly announce which marketplace we're going to be making use of. Mint Price
-TBA</p>
+          <p tabIndex={0} className='text-white text-center md:text-start'>We'll publicly announce which marketplace we're going to be making use of</p>
         </div>
     </div>
     <div tabIndex={0}
@@ -59,9 +61,7 @@ TBA</p>
      border
      bg-base-100 rounded-box
      border-yellow-400
-    
-     my-3
-     ">
+     my-3">
         <div className="collapse-title text-xl font-medium text-white">
         What is The Nextlight OG pass?
         </div>
@@ -69,7 +69,34 @@ TBA</p>
           <p tabIndex={0} className='text-white text-center md:text-start'>OG pass gives you a guaranteed mint ahead of mainnet launch. Which means you'll be able to mint with no stress attached, like a VIP you're.</p>
         </div>
     </div>
-
+    <div tabIndex={0}
+    data-aos-duration="2500" data-aos="fade-up" 
+    className="collapse collapse-arrow
+     border
+     bg-base-100 rounded-box
+     border-yellow-400
+     my-3">
+        <div className="collapse-title text-xl font-medium text-white">
+        Mint Price
+        </div>
+        <div className="collapse-content"> 
+          <p tabIndex={0} className='text-white text-center md:text-start'>TBA</p>
+        </div>
+    </div>
+    <div tabIndex={0}
+    data-aos-duration="2500" data-aos="fade-up" 
+    className="collapse collapse-arrow
+     border
+     bg-base-100 rounded-box
+     border-yellow-400
+     my-3">
+        <div className="collapse-title text-xl font-medium text-white">
+        How to get OG Pass?
+        </div>
+        <div className="collapse-content"> 
+          <p tabIndex={0} className='text-white text-center md:text-start'>Get your OG pass <a className='textGradient text-md ' target='blank' href="https://opensea.io/collection/og-pass-v2">here</a></p>
+        </div>
+    </div>
 
 
     </div>

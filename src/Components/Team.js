@@ -5,7 +5,7 @@ import team from '../Images/logo.png'
 const Team = () => {
     return (
         <div className='my-16 mx-4 md:mx-0 '>
-           <h2 className='textGradient pb-3 text-4xl md:text-5xl text-center font-FredokaOne font-bold'>Nextlight Gallery</h2>
+           <h2 className='textGradient pb-3 text-4xl md:text-6xl text-center font-FredokaOne '>Team</h2>
         <div className='container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:gap-4 my-16 space-y-12 md:space-y-0'>
 
         

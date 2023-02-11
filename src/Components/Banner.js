@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../Images/bclean.jpg'
+import banner from '../Images/bclean.png'
 import './Banner.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -11,7 +11,7 @@ AOS.init();
 const Banner = () => {
   
     return (
-<div className='mb-20 md:mb-0 '>
+<div className='mb-20 md:mb-18 '>
     <div className="hero md:mt-14 ">
     <div className="hero-content flex-col lg:flex-row-reverse md:gap-10 relative">
     

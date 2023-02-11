@@ -10,7 +10,7 @@ AOS.init();
 
 const About = () => {
     return (
-<div id='about' className="hero min-h-screen ">
+<div id='about' className="hero  ">
   <div className="hero-content flex-col lg:flex-row md:gap-28">
     <img data-aos-duration="1000" data-aos="fade-up" src={about} alt='' className="max-w-xs md:max-w-md rounded-lg " />
     <div data-aos-duration="2000" data-aos="fade-left" className='md:text-start text-center '>

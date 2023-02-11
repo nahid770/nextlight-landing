@@ -4,10 +4,10 @@ import lore from '../Images/lore.jpg'
 
 const Lore = () => {
     return (
-        <div id='lore' className='my-60'>
+        <div id='lore' className='my-24 md:my-32'>
             
             {/* The button to open modal */}
-          <label htmlFor="lore-modal-6" className=" px-16 md:px-28 py-4 rounded-md border border-yellow-400 cursor-pointer textGradient hover:text-black  hover:bg-yellow-400 text-3xl font-FredokaOne">Lore</label>
+          <label htmlFor="lore-modal-6" className=" px-10 md:px-28 md:py-4 py-2 rounded-md border border-yellow-400 cursor-pointer textGradient hover:text-black  hover:bg-yellow-400 text-3xl font-FredokaOne">Lore</label>
           
 
           {/* Put this part before </body> tag */}

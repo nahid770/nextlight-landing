@@ -4,7 +4,8 @@ import './Navber.css'
 
 const Navber = () => {
     return (
-      <div className="navbar bg-base-100 mt-6">
+    <div>
+      <div className="navbar bg-base-100">
         <div className='navber-start text-end block md:hidden'>
                 <img className='w-68' src={logo} alt="" />
             </div>
@@ -19,35 +20,31 @@ const Navber = () => {
               <li ><a href='#home'   className='font-Poppins  text-sm textGradient'>Home</a></li>
               <li ><a href='#about ' className='font-Poppins  text-sm textGradient'>About</a></li>
               <li ><a href='#lore '  className='font-Poppins  text-sm textGradient'>Lore</a></li>
-              <li ><a href='#gallery' className='font-Poppins text-sm textGradient'>Gallery</a></li>
+              <li ><a href='#slide' className='font-Poppins text-sm textGradient'>Gallery</a></li>
               <li ><a href='#faq '   className='font-Poppins  text-sm textGradient'>FAQ</a></li>
             </ul>
           </div>
         </div>
-
-        {/* Desktop menu */}
-
-        <div className='navbar-start hidden md:block '>
-            <img className='w-12' src={logo} alt=""/>
-        </div>
-
-        <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-  </div>
-
-        <div className="navbar-end hidden md:flex  ">
-           <ul className="menu menu-horizontal px-1">
-              <li><a href='#home'   className='textGradient mr-2 font-Poppins'>Home</a></li>
-              <li><a href='#about'  className='textGradient mr-2 font-Poppins'>About</a></li>
-              <li><a href='#lore'    className='textGradient mr-2 font-Poppins'>Lore</a></li>
-              <li><a href='#gallery' className='textGradient mr-2 font-Poppins'>Gallery</a></li>
-              <li><a href='#faq'     className='textGradient font-Poppins'>FAQ</a></li>
-           </ul>
-        </div>
-
         
-
       </div>
+      {/* Desktop menu */}
+
+      <div className='container  justify-between hidden md:flex'>
+          <div className='nav-logo'>
+          <img className='w-10' src={logo} alt="" />
+          </div>
+          <div className='nav-items'>
+          <ul className='flex items-center'>
+            <li ><a href='#home' className='font-Poppins  mr-10 text-md textGradient'>Home</a></li>
+            <li ><a href='#about' className='font-Poppins mr-10  text-md  textGradient'>About</a></li>
+            <li ><a href='#lore' className='font-Poppins mr-10 text-md  textGradient'>Lore</a></li>
+            <li ><a href='#slide' className='font-Poppins mr-10 text-md  textGradient'>Gallery</a></li>
+            <li ><a href='#faq'  className='font-Poppins mr-10 text-md  textGradient'>FAQ</a></li>
+            </ul>
+          </div>
+      </div>
+
+    </div>
     );
 };
 
