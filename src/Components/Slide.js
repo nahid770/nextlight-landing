@@ -12,7 +12,6 @@ import image5 from '../Images/image5.jpg'
 import image6 from '../Images/image6.jpg'
 import image7 from '../Images/image7.jpg'
 import image8 from '../Images/image8.jpg'
-import image10 from '../Images/image10.jpg'
 
 const Slide = () => {
     return (
@@ -40,7 +39,7 @@ const Slide = () => {
           <SwiperSlide><img className='max-w-sm border border-yellow-400 rounded-sm' src={image6} alt="" /></SwiperSlide>
           <SwiperSlide><img className='max-w-sm border border-yellow-400 rounded-sm' src={image7} alt="" /></SwiperSlide>
           <SwiperSlide><img className='max-w-sm border border-yellow-400 rounded-sm' src={image8} alt="" /></SwiperSlide>
-          <SwiperSlide><img className='max-w-sm border border-yellow-400 rounded-sm' src={image10} alt="" /></SwiperSlide>
+          
         </Swiper>
       </div>
     );

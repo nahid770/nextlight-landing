@@ -13,7 +13,7 @@ const Navber = () => {
         </div>
         <div className="navbar-end">
           <div className="dropdown relative">
-            <label tabIndex={0} className="btn lg:hidden">
+            <label tabIndex={0} className="btn md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
             <ul tabIndex={0} className="menu menu-compact dropdown-content absolute left-[-55px] mt-1 shadow bg-[#080b23] rounded-box w-36 pl-4 pb-2 pt-1">
@@ -31,7 +31,7 @@ const Navber = () => {
 
       <div className='container  justify-between hidden md:flex'>
           <div className='nav-logo'>
-          <img className='w-10' src={logo} alt="" />
+          <img className='w-12' src={logo} alt="" />
           </div>
           <div className='nav-items'>
           <ul className='flex items-center'>

@@ -6,16 +6,14 @@ const Roadmap = () => {
     <div>
         <div className='container border-yellow-400 rounded-md w-full relative md:mb-32'>
             <h2 className='textGradient font-FredokaOne md:text-6xl mb-8 md:mb-14 text-4xl'>Roadmap</h2>
-                <p className='text-white text-md px-16 text-md mb-16 md:text-xl'>
+              <div className='w-2/3 mx-auto'>
+              <p className='text-white   text-md px-16 text-md mb-16 md:text-xl'>
                 We understand that there's no true manual to running a successful project, this why we have made this roadmap to fit our community standards, we'll keep on updating.
                 </p>
+              </div>
                 {/* Roadmap Wrapper */}
            <div className='roadmap-wrapper flex-col items-center md:justify-around space-y-10 px-10 w-full '>
-            {/* <div className='w-1 bg-yellow-400 rounded-md h-[580px] xl:h-[530px] absolute md:left-[530px] xl:left-[605px]'></div>
-            <div className='w-5 h-5 bg-white rounded-full absolute md:left-[522px] md:top-[262px] xl:left-[597px]'></div>
-            <div className='w-5 h-5 bg-white rounded-full absolute md:left-[522px] md:top-[475px] xl:left-[597px] xl:top-[465px]'></div>
-            <div className='w-5 h-5 bg-white rounded-full absolute md:left-[522px] md:top-[690px] xl:left-[597px] xl:top-[655px]' ></div> */}
-            {/* Phase 1/2  */}
+          
              <div className='flex flex-col md:flex-row gap-10 '>
                <div className='md:w-1/2 h-auto border border-yellow-400 rounded-md p-4 transition duration-500 hover:bg-[#deb617] '>
                     <h2 className='text-xl font-bold  text-white '>Phase 1</h2>
